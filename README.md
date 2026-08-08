@@ -1,4 +1,4 @@
-﻿<!-- ==========================================
+<!-- ==========================================
       HEADER BANNER & ANIMATED TYPING TITLE
      ========================================== -->
 <div align="center">
@@ -29,24 +29,24 @@
 <!-- ==========================================
               ABOUT ME SECTION
      ========================================== -->
-## ðŸ‘¨â€ðŸ’» About Me
+## 👨‍💻 About Me
 
 <div align="center">
-  <img align="right" width="380" src="https://cdni.iconscout.com/illustration/premium/thumb/developer-working-on-laptop-illustration-download-in-svg-png-gif-file-formats--coding-programmer-software-development-pack-business-illustrations-4796350.png" alt="Developer Illustration" />
+  <img align="right" width="380" src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="Developer Illustration" />
 </div>
 
 ```text
-ðŸš€  Full Stack & AI Engineer passionate about building smart, high-performance applications.
-âš¡  Specialized in Python, Desktop UI (PySide6/Qt), Speech-to-Text AI, and Web Applications.
-ðŸ’¡  Creator of JoyVoice â€” a floating voice dictation & translation tool powered by Gemini AI.
-ðŸŽ¯  Always exploring cutting-edge AI models, agentic workflows, and smooth user interfaces.
+🚀  Full Stack & AI Engineer passionate about building smart, high-performance applications.
+⚡  Specialized in Python, Desktop UI (PySide6/Qt), Speech-to-Text AI, and Web Applications.
+💡  Creator of JoyVoice — a floating voice dictation & translation tool powered by Gemini AI.
+🎯  Always exploring cutting-edge AI models, agentic workflows, and smooth user interfaces.
 ```
 
-- ðŸ”­ **Currently working on:** Expanding **[JoyVoice](https://github.com/MHJoy99/joyvoice)** with custom audio workflows & offline LLMs.
-- ðŸŒ± **Currently learning:** Advanced AI Agent architectures, High-Performance C++ extensions, & Rust.
-- ðŸ’¬ **Ask me about:** Python, Gemini API, PySide6, React, Next.js, and Audio Speech Processing.
-- ðŸ“« **How to reach me:** `mhjoy99@gmail.com` *(or connect via social links below)*
-- âš¡ **Fun fact:** I write code faster when surrounded by dark themes and good music ðŸŽ§
+- 🔭 **Currently working on:** Expanding **[JoyVoice](https://github.com/MHJoy99/joyvoice)** with custom audio workflows & offline LLMs.
+- 🌱 **Currently learning:** Advanced AI Agent architectures, High-Performance C++ extensions, & Rust.
+- 💬 **Ask me about:** Python, Gemini API, PySide6, React, Next.js, and Audio Speech Processing.
+- 📫 **How to reach me:** `mhjoy99@gmail.com` *(or connect via social links below)*
+- ⚡ **Fun fact:** I write code faster when surrounded by dark themes and good music 🎧
 
 <br clear="both"/>
 
@@ -55,15 +55,15 @@
 <!-- ==========================================
             FEATURED PROJECT SPOTLIGHT
      ========================================== -->
-## â­ Featured Spotlight
+## ⭐ Featured Spotlight
 
 <div align="center">
 
-| ðŸŽ™ï¸ **[JoyVoice](https://github.com/MHJoy99/joyvoice)** - Floating Microphone Dictation & AI Translation |
+| 🎙️ **[JoyVoice](https://github.com/MHJoy99/joyvoice)** - Floating Microphone Dictation & AI Translation |
 | :--- |
 | **JoyVoice** is an open-source floating dictation assistant that transcribes speech into 10+ languages and pastes translated text into any Windows application instantly. |
-| ðŸ› ï¸ **Tech Stack:** `Python` â€¢ `PySide6` â€¢ `Google Gemini Native Audio` â€¢ `Windows API` |
-| ðŸ”— **[View Repository](https://github.com/MHJoy99/joyvoice)** â€¢ â­ **Star the Project!** |
+| 🛠️ **Tech Stack:** `Python` • `PySide6` • `Google Gemini Native Audio` • `Windows API` |
+| 🔗 **[View Repository](https://github.com/MHJoy99/joyvoice)** • ⭐ **Star the Project!** |
 
 </div>
 
@@ -72,26 +72,26 @@
 <!-- ==========================================
                TECH STACK & ARSENAL
      ========================================== -->
-## ðŸ› ï¸ Tech Stack & Arsenal
+## 🛠️ Tech Stack & Arsenal
 
 <div align="center">
 
-### ðŸ’» Languages & Core Technologies
+### 💻 Languages & Core Technologies
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=python,js,ts,cpp,html,css,sql,bash&perline=8" alt="Languages" />
 </a>
 
-### âš¡ Frameworks & Libraries
+### ⚡ Frameworks & Libraries
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,qt,tailwind,bootstrap,sass&perline=8" alt="Frameworks" />
 </a>
 
-### ðŸ§  AI, Data & Databases
+### 🧠 AI, Data & Databases
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,postgres,mongodb,sqlite,redis,firebase&perline=8" alt="AI & Databases" />
 </a>
 
-### ðŸ› ï¸ Tools, Cloud & DevOps
+### 🛠️ Tools, Cloud & DevOps
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman,vercel,linux,powershell&perline=8" alt="Tools" />
 </a>
@@ -101,29 +101,18 @@
 ---
 
 <!-- ==========================================
-            GITHUB TROPHIES SECTION
-     ========================================== -->
-## ðŸ† GitHub Achievements & Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MHJoy99&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=true" alt="MHJoy99 Trophies" />
-</div>
-
----
-
-<!-- ==========================================
             GITHUB STATS DASHBOARD GRID
      ========================================== -->
-## ðŸ“Š GitHub Analytics & Dashboard
+## 📊 GitHub Analytics & Dashboard
 
 <div align="center">
   <table border="0">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=MHJoy99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%"/>
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=MHJoy99&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%"/>
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MHJoy99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="100%"/>
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MHJoy99&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="100%"/>
       </td>
     </tr>
     <tr>
@@ -137,20 +126,9 @@
 ---
 
 <!-- ==========================================
-         CONTRIBUTION SNAKE ANIMATION
-     ========================================== -->
-## ðŸ Contribution Graph Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/MHJoy99/MHJoy99/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%"/>
-</div>
-
----
-
-<!-- ==========================================
          DAILY DEV QUOTE / JOKE WIDGET
      ========================================== -->
-## ðŸ’¡ Random Developer Inspiration
+## 💡 Random Developer Inspiration
 
 <div align="center">
 
@@ -163,7 +141,7 @@
 <!-- ==========================================
             CONNECT & SOCIAL MATRIX
      ========================================== -->
-## ðŸ“« Connect with Me
+## 📫 Connect with Me
 
 <div align="center">
 
@@ -188,5 +166,5 @@
 <br/>
 
 <div align="center">
-  <sub>Designed with â¤ï¸ for @MHJoy99 â€¢ Back to <a href="#-the-ultimate-github-profile-readme-for-mhjoy99">Top â¬†ï¸</a></sub>
+  <sub>Designed with ❤️ for @MHJoy99 • Back to <a href="#-the-ultimate-github-profile-readme-for-mhjoy99">Top ⬆️</a></sub>
 </div>
