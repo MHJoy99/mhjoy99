@@ -1,92 +1,108 @@
 <div align="center">
 
-![MH Joy Header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=MHJoy99&fontSize=80&fontAlignY=35&animation=twinkling&desc=Full%20Stack%20Engineer%20%7C%20AI%20%26%20Automation&descAlignY=55&descSize=24&fontColor=ffffff)
+# Hey, I'm MH Joy 🚀
 
-<br/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=70&lines=Full+Stack+Engineer+%7C+AI+Builder;Python+%C2%B7+Go+%C2%B7+Rust+%C2%B7+TypeScript)](https://git.io/typing-svg)
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Building+Desktop+AI+Apps+with+Python;Scaling+APIs+with+Go+%26+Rust;Automating+Everything+with+Bots;Deploying+on+Docker+%26+Cloudflare" alt="Typing SVG" />
+</div>
+
+---
+
+### 🧠 About Me
+
+I'm a prolific full-stack engineer who builds across the entire stack — from **low-level Rust** desktop tools to **Go API gateways** and **AI-powered Python apps**. I ship fast, automate everything, and deploy my own infrastructure.
+
+<table>
+<tr><td>
+
+**🔧 What I Build**
+
+| Domain | Projects |
+|---|---|
+| 🎙️ Desktop AI | **[JoyVoice](https://github.com/MHJoy99/joyvoice)** — PySide6 + Gemini floating dictation |
+| ⚡ Systems | **[WattSeal](https://github.com/MHJoy99/WattSeal)** — Rust real-time power monitor |
+| 🔌 API Infra | **Sub2API** (Go) — unified AI subscription gateway |
+| 🤖 Automation | Telegram bots, Discord tickets, IMAP processors |
+| 🌐 Web | React/Next.js storefronts, WordPress platforms |
+| 🐳 DevOps | Docker, Nginx, Cloudflare, self-hosted Chatwoot |
+
+</td></tr>
+</table>
+
+---
+
+### 💻 Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=3776AB)
+![Go](https://img.shields.io/badge/Go-1a1b27?style=for-the-badge&logo=go&logoColor=00ADD8)
+![Rust](https://img.shields.io/badge/Rust-1a1b27?style=for-the-badge&logo=rust&logoColor=DEA584)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a1b27?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![C%23](https://img.shields.io/badge/C%23-1a1b27?style=for-the-badge&logo=csharp&logoColor=68217A)
+![PHP](https://img.shields.io/badge/PHP-1a1b27?style=for-the-badge&logo=php&logoColor=777BB4)
+
+**Frameworks & Tools**
+
+![React](https://img.shields.io/badge/React-1a1b27?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-1a1b27?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![PySide6](https://img.shields.io/badge/PySide6-1a1b27?style=for-the-badge&logo=qt&logoColor=41CD52)
+![Docker](https://img.shields.io/badge/Docker-1a1b27?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Nginx](https://img.shields.io/badge/Nginx-1a1b27?style=for-the-badge&logo=nginx&logoColor=009639)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1a1b27?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-1a1b27?style=for-the-badge&logo=cloudflare&logoColor=F38020)
+![Linux](https://img.shields.io/badge/Linux-1a1b27?style=for-the-badge&logo=linux&logoColor=FCC624)
+
+</div>
+
+---
+
+### 🌟 Featured Projects
+
+<div align="center">
+<a href="https://github.com/MHJoy99/joyvoice">
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&amp;repo=joyvoice&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="JoyVoice" width="48%"/>
 </a>
-
+<a href="https://github.com/MHJoy99/WattSeal">
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&amp;repo=WattSeal&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="WattSeal" width="48%"/>
+</a>
+</div>
+<div align="center">
+<a href="https://github.com/MHJoy99/TG-FileStreamBot">
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&amp;repo=TG-FileStreamBot&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="TG-FileStreamBot" width="48%"/>
+</a>
+<a href="https://github.com/MHJoy99/Rainmeter-Todo-Skin">
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&amp;repo=Rainmeter-Todo-Skin&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="Rainmeter Todo" width="48%"/>
+</a>
 </div>
 
-<br/>
-
-<table width="100%" align="center" style="border: none; background-color: transparent;">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>👨‍💻 Who am I?</h3>
-      I am a prolific software engineer deeply focused on <b>high-performance systems</b> and <b>AI integrations</b>. I don't just stick to one stack—I build wherever the architecture demands it.
-      <br/><br/>
-      <b>Core Domains:</b>
-      <ul>
-        <li>🎙️ <b>AI & Desktop:</b> JoyVoice (PySide6 + Gemini Audio), WattSeal (Rust)</li>
-        <li>🧠 <b>API Gateways:</b> Sub2API (Go) & CLIProxyAPI</li>
-        <li>⚙️ <b>Automation:</b> Telegram bots, Discord ticket systems</li>
-        <li>🌐 <b>DevOps:</b> Docker, Nginx, Cloudflare deployments</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top" align="center">
-      <h3>💻 Tech Stack</h3>
-      <div align="left">
-        <b>Languages</b><br/>
-        <img src="https://skillicons.dev/icons?i=python,go,rust,ts,cs&theme=dark" /><br/><br/>
-        <b>Frontend & UI</b><br/>
-        <img src="https://skillicons.dev/icons?i=react,nextjs,qt,tailwind&theme=dark" /><br/><br/>
-        <b>Backend & DevOps</b><br/>
-        <img src="https://skillicons.dev/icons?i=docker,postgres,nginx,linux,cloudflare,git&theme=dark" />
-      </div>
-    </td>
-  </tr>
-</table>
-
 ---
 
-<h3 align="center">🌟 Featured Projects</h3>
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/MHJoy99/joyvoice">
-        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=joyvoice&theme=tokyonight&show_owner=false&border_radius=10" alt="JoyVoice" width="100%"/>
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/MHJoy99/WattSeal">
-        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=WattSeal&theme=tokyonight&show_owner=false&border_radius=10" alt="WattSeal" width="100%"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://github.com/MHJoy99/TG-FileStreamBot">
-        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=TG-FileStreamBot&theme=tokyonight&show_owner=false&border_radius=10" alt="TG-FileStreamBot" width="100%"/>
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/MHJoy99/Rainmeter-Todo-Skin">
-        <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=Rainmeter-Todo-Skin&theme=tokyonight&show_owner=false&border_radius=10" alt="Rainmeter Todo" width="100%"/>
-      </a>
-    </td>
-  </tr>
-</table>
-
----
-
-<h3 align="center">📊 GitHub Analytics</h3>
+### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=MHJoy99&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MHJoy99&layout=compact&theme=tokyonight&border_radius=10&hide_border=true" alt="Top Languages" height="170" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=MHJoy99&amp;show_icons=true&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=MHJoy99&amp;layout=compact&amp;theme=tokyonight&amp;border_radius=10&amp;hide_border=true" alt="Top Languages" height="170" />
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/MHJoy99">
-    <img src="https://img.shields.io/badge/GitHub-1a1b26?style=for-the-badge&logo=github&logoColor=7aa2f7" alt="GitHub" />
-  </a>
-  <a href="mailto:mhjoy99@gmail.com">
-    <img src="https://img.shields.io/badge/Email-1a1b26?style=for-the-badge&logo=gmail&logoColor=7aa2f7" alt="Email" />
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=MHJoy99&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10" alt="GitHub Streak" width="60%"/>
+</div>
+
+---
+
+<div align="center">
+
+**Let's connect**
+
+[![GitHub](https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MHJoy99)
+[![Email](https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:mhjoy99@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com)
+
+![Profile Views](https://komarev.com/ghpvc/?username=MHJoy99&amp;color=38BDF8&amp;style=flat-square&amp;label=Profile+Views)
+
 </div>
