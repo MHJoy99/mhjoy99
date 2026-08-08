@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=MHJoy99&fontSize=80&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20%7C%20AI%20Tooling%20%26%20Automation&descAlignY=55&descSize=22&fontColor=ffffff" alt="MH Joy Header" />
+
+![MH Joy Header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=MHJoy99&fontSize=80&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20|%20AI%20Tooling%20%26%20Automation&descAlignY=55&descSize=22&fontColor=ffffff)
+
 </div>
 
 ---
