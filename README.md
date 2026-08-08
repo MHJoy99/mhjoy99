@@ -93,6 +93,18 @@ I'm a prolific full-stack engineer who builds across the entire stack — from *
   <img src="https://github-readme-streak-stats.herokuapp.com?user=MHJoy99&amp;theme=tokyonight&amp;hide_border=true&amp;border_radius=10" alt="GitHub Streak" width="60%"/>
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MHJoy99&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="Contribution Activity Graph" width="95%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MHJoy99/mhjoy99/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="95%" />
+</div>
+
 ---
 
 <div align="center">
