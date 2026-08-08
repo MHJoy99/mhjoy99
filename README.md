@@ -1,17 +1,17 @@
 ### Hi, I'm MH Joy 👋
 
-I'm a software engineer and the creator of **[JoyVoice](https://github.com/MHJoy99/joyvoice)**, an open-source AI dictation tool. I specialize in building intelligent, high-performance applications using Python, AI models, and modern web frameworks.
+I am a software engineer and full-stack developer who loves building everything from desktop applications and AI integrations to complex backend services and Telegram automation bots.
 
-**What I'm working on**
-- 🎙️ Expanding **JoyVoice** with custom audio workflows and Google Gemini Native Audio.
-- 🤖 Exploring Agentic AI architectures and local LLM integrations.
-- 💻 Building high-performance desktop interfaces with PySide6.
-- 🌱 Diving deeper into Rust and scalable backend systems.
+**What I build & focus on:**
+- 🎙️ **Desktop AI & UI:** Creator of **[JoyVoice](https://github.com/MHJoy99/joyvoice)** (a PySide6 floating dictation app using Gemini Native Audio), **WattSeal** (Rust-based PC power monitor), and various desktop telemetry dashboards (CodexDash, ClaudeDash).
+- 🧠 **AI Infrastructure:** Building **Sub2API** (Go) and **CLIProxyAPI** to unify AI subscriptions (Claude, OpenAI, Gemini) and autonomous coding agents like **bdx-cline**.
+- ⚙️ **Backend & Automation:** Developing high-performance Telegram bots (FileStreamBot, MediaInfoBot), Discord ticket systems, and Google Tasks integrations.
+- 🌐 **Web & DevOps:** Deploying self-hosted infrastructure (Docker, Nginx, Chatwoot) and building web platforms like ShokherBazzar and BDX Market.
 
-**My Tech Stack**
-I work primarily with `Python`, `TypeScript`, `React`, and `C++`. For tools and infrastructure, I rely on `Docker`, `PostgreSQL`, and `Git`. 
+**Languages & Tools I work with:**
+`Python` • `Go` • `Rust` • `TypeScript` • `C#` • `Docker` • `Nginx` • `PySide6`
 
-**Connect with me**
+**Connect with me:**
 [Email](mailto:mhjoy99@gmail.com) &middot; [LinkedIn](https://linkedin.com) &middot; [Twitter](https://twitter.com)
 
 ---
