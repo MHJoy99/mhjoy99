@@ -100,8 +100,8 @@ I'm a prolific full-stack engineer who builds across the entire stack — from *
 **Let's connect**
 
 [![GitHub](https://img.shields.io/badge/GitHub-1a1b27?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MHJoy99)
-[![Email](https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:mhjoy99@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-1a1b27?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:founder@bdx.market)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-1a1b27?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/mhjoy99/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=MHJoy99&amp;color=38BDF8&amp;style=flat-square&amp;label=Profile+Views)
 
