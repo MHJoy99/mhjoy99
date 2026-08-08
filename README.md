@@ -1,6 +1,10 @@
 <div align="center">
 
-![MH Joy Header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=MHJoy99&fontSize=80&fontAlignY=35&animation=twinkling&desc=Software%20Engineer%20|%20AI%20Tooling%20%26%20Automation&descAlignY=55&descSize=22&fontColor=ffffff)
+<img src="./banner.jpg" width="100%" alt="Developer Workspace Banner" />
+<br />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=24&pause=1500&color=58a6ff&center=true&vCenter=true&width=600&lines=MHJoy99;Software+Engineer;AI+Tooling+%26+Automation;Creator+of+JoyVoice+%F0%9F%8E%99%EF%B8%8F" alt="Typing SVG" />
+</a>
 
 </div>
 
