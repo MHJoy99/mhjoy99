@@ -97,9 +97,15 @@ I'm a prolific full-stack engineer who builds across the entire stack — from *
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MHJoy99&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="Contribution Activity Graph" width="95%" />
-</div>
+---
 
+### ⚡ Recent Activity
 
+<!--START_SECTION:activity-->
+1. 🔀 Pushed commits to [MHJoy99/mhjoy99](https://github.com/MHJoy99/mhjoy99)
+2. 🛠️ Updated repository topics for [MHJoy99/WattSeal](https://github.com/MHJoy99/WattSeal)
+3. 🎙️ Improved Gemini Native Audio dictation in [MHJoy99/joyvoice](https://github.com/MHJoy99/joyvoice)
+<!--END_SECTION:activity-->
 
 ---
 
