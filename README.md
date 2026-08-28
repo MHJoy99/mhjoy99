@@ -82,11 +82,7 @@ I like the whole journey—from a rough idea and a stubborn bug to a tested tool
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=MHJoy99&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub contribution streak" width="60%"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=MHJoy99&theme=tokyo-night&hide_border=true&area=true" alt="GitHub contribution activity graph" width="95%"/>
+<img src="https://streak-stats.demolab.com?user=MHJoy99&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub contribution streak" width="60%"/>
 
 </div>
 
