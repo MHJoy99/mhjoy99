@@ -35,8 +35,8 @@ I like the whole journey—from a rough idea and a stubborn bug to a tested tool
 
 <div align="center">
 
-<a href="https://github.com/MHJoy99/joyvoice">
-  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=joyvoice&theme=tokyonight&border_radius=12&hide_border=true" alt="JoyVoice repository" width="48%"/>
+<a href="https://github.com/MHJoy99/ZipStream-Hub">
+  <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=ZipStream-Hub&theme=tokyonight&border_radius=12&hide_border=true" alt="ZipStream-Hub repository" width="48%"/>
 </a>
 <a href="https://github.com/MHJoy99/WattSeal">
   <img src="https://github-readme-stats-fast.vercel.app/api/pin/?username=MHJoy99&repo=WattSeal&theme=tokyonight&border_radius=12&hide_border=true" alt="WattSeal repository" width="48%"/>
@@ -46,6 +46,7 @@ I like the whole journey—from a rough idea and a stubborn bug to a tested tool
 
 ### Projects worth exploring
 
+- ⚡ **[ZipStream-Hub](https://github.com/MHJoy99/ZipStream-Hub)** — Stream 4K/1080p video instantly from remote ZIP/ZIP64 archives without downloading. HTTP 206 byte-range proxy, 0ms seek, in-browser HTML5 player, PotPlayer/VLC/MPV/MPC-HC integration, and dynamic M3U8 IPTV export.
 - 🎙️ **[JoyVoice](https://github.com/MHJoy99/joyvoice)** — a floating voice assistant for fast desktop interaction.
 - ⚡ **[WattSeal](https://github.com/MHJoy99/WattSeal)** — a Rust real-time power and system monitor.
 - 🚀 **[Speedy Bonding](https://github.com/MHJoy99/speedy-bonding)** — a Windows SOCKS5 load balancer for IDM with optional Steam-only routing.
