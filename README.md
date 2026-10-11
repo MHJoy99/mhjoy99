@@ -38,24 +38,27 @@ token, cache hit and API-equivalent dollar, read from Claude Code's own logs, pl
 
 <table>
 <tr>
+<td width="50%"><a href="https://github.com/MHJoy99/CCUsageX"><img src="assets/cards/CCUsageX.svg" width="100%" alt="CCUsageX: local Claude Code usage dashboard"></a></td>
+<td width="50%"><a href="https://github.com/MHJoy99/CCSwitcherX"><img src="assets/cards/CCSwitcherX.svg" width="100%" alt="CCSwitcherX: switch Claude Code between your own accounts in one click, with a Windows window, a VS Code status bar and usage per account"></a></td>
+</tr>
+<tr>
 <td width="50%"><a href="https://github.com/MHJoy99/joyvoice"><img src="assets/cards/joyvoice.svg" width="100%" alt="joyvoice: fast Windows voice typing and speech-to-text with Gemini native audio and Bangla translation"></a></td>
 <td width="50%"><a href="https://github.com/MHJoy99/ZipStream-Hub"><img src="assets/cards/ZipStream-Hub.svg" width="100%" alt="ZipStream-Hub: stream 4K/1080p video instantly from remote ZIP/ZIP64 archives"></a></td>
 </tr>
 <tr>
 <td width="50%"><a href="https://github.com/MHJoy99/bdx-bench"><img src="assets/cards/bdx-bench.svg" width="100%" alt="bdx-bench: zero-dependency local LLM benchmark harness and leaderboard GUI"></a></td>
-<td width="50%"><a href="https://github.com/MHJoy99/CCUsageX"><img src="assets/cards/CCUsageX.svg" width="100%" alt="CCUsageX: local Claude Code usage dashboard"></a></td>
-</tr>
-<tr>
 <td width="50%"><a href="https://github.com/MHJoy99/camscanner-mcp-hd-scanner"><img src="assets/cards/camscanner-mcp-hd-scanner.svg" width="100%" alt="camscanner-mcp-hd-scanner: MCP integration and free local HD document scanner"></a></td>
+</tr>
+<tr>
 <td width="50%"><a href="https://github.com/MHJoy99/mirror-leech-telegram-bot-fuse"><img src="assets/cards/mirror-leech-telegram-bot-fuse.svg" width="100%" alt="mirror-leech-telegram-bot-fuse: Telegram mirror and leech bot with a FUSE zero-double-storage engine"></a></td>
-</tr>
-<tr>
 <td width="50%"><a href="https://github.com/MHJoy99/speedy-bonding"><img src="assets/cards/speedy-bonding.svg" width="100%" alt="speedy-bonding: Windows multi-connection SOCKS5 load balancer"></a></td>
-<td width="50%"><a href="https://github.com/MHJoy99/jellyfin-torbox-potplayer-stack"><img src="assets/cards/jellyfin-torbox-potplayer-stack.svg" width="100%" alt="jellyfin-torbox-potplayer-stack: one-click Jellyfin, TorBox and PotPlayer auto-stack"></a></td>
 </tr>
 <tr>
+<td width="50%"><a href="https://github.com/MHJoy99/jellyfin-torbox-potplayer-stack"><img src="assets/cards/jellyfin-torbox-potplayer-stack.svg" width="100%" alt="jellyfin-torbox-potplayer-stack: one-click Jellyfin, TorBox and PotPlayer auto-stack"></a></td>
 <td width="50%"><a href="https://github.com/MHJoy99/codex-vscode-health"><img src="assets/cards/codex-vscode-health.svg" width="100%" alt="codex-vscode-health: pre-flight health gate for VS Code Remote"></a></td>
-<td width="50%"><a href="https://github.com/MHJoy99/Rainmeter-Todo-Skin"><img src="assets/cards/Rainmeter-Todo-Skin.svg" width="100%" alt="Rainmeter-Todo-Skin: desktop Google Tasks widget"></a></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><a href="https://github.com/MHJoy99/Rainmeter-Todo-Skin"><img src="assets/cards/Rainmeter-Todo-Skin.svg" width="50%" alt="Rainmeter-Todo-Skin: desktop Google Tasks widget"></a></td>
 </tr>
 </table>
 
@@ -63,6 +66,7 @@ token, cache hit and API-equivalent dollar, read from Claude Code's own logs, pl
 
 **Project websites:**
 [CCUsageX](https://mhjoy99.github.io/CCUsageX/) ·
+[CCSwitcherX](https://mhjoy99.github.io/CCSwitcherX/) ·
 [JoyVoice](https://mhjoy99.github.io/joyvoice/) ·
 [ZipStream-Hub](https://mhjoy99.github.io/ZipStream-Hub/) ·
 [bdx-bench](https://mhjoy99.github.io/bdx-bench/) ·
@@ -102,7 +106,7 @@ token, cache hit and API-equivalent dollar, read from Claude Code's own logs, pl
 
 <img src="assets/sections/now.svg" width="100%" alt="07 Currently">
 
-- Building practical AI and developer tools, most recently **[CCUsageX](https://github.com/MHJoy99/CCUsageX)**.
+- Building practical AI and developer tools, most recently **[CCUsageX](https://github.com/MHJoy99/CCUsageX)** and **[CCSwitcherX](https://github.com/MHJoy99/CCSwitcherX)**.
 - Improving Windows networking and desktop developer utilities.
 - Turning messy operational workflows into repeatable software.
 - Learning in public through small, useful releases.

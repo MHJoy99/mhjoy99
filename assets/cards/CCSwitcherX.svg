@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="cs-title cs-desc">
+  <title id="cs-title">CCSwitcherX</title>
+  <desc id="cs-desc">Switch Claude Code between your own accounts in one click: a Windows window, a VS Code status bar and usage for each account, with encrypted saved logins. Python, Claude Code account switcher. New.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e48a6c"/>
+      <stop offset="1" stop-color="#c96442"/>
+    </linearGradient>
+    <linearGradient id="acl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d97757"/>
+      <stop offset="1" stop-color="#5b3df5"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 24px; font-weight: 800; fill: #e2e8f0; }
+    .meta  { font-size: 13px; fill: #94a3b8; }
+    .desc  { font-size: 15px; fill: #cbd5e1; }
+    .chip  { font-size: 12px; fill: #cbd5e1; }
+    .link  { font-size: 12px; fill: #38bdf8; }
+    .pill  { font-size: 11px; font-weight: 700; fill: #34d399; }
+
+    .in    { animation: rise 0.6s ease-out both; }
+    .acc   { transform-box: fill-box; transform-origin: left center; animation: grow 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    .top   { animation: right 3.6s ease-in-out infinite; }
+    .bot   { animation: left 3.6s ease-in-out infinite; }
+
+    @keyframes rise  { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes grow  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes sweep { 0% { transform: translateX(-220px); } 22% { transform: translateX(900px); } 100% { transform: translateX(900px); } }
+    @keyframes right { 0%, 20%, 100% { transform: translateX(0); } 50%, 70% { transform: translateX(-3px); } }
+    @keyframes left  { 0%, 20%, 100% { transform: translateX(0); } 50%, 70% { transform: translateX(3px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .in, .acc, .top, .bot { animation: none; }
+      .shimmer { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#bg)" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- shimmer sweep, clipped to the card -->
+  <g clip-path="url(#card)">
+    <g class="shimmer">
+      <rect x="-150" y="-80" width="150" height="380" fill="url(#sh)" transform="rotate(22 300 110)"/>
+    </g>
+  </g>
+
+  <!-- accent line along the top edge -->
+  <g clip-path="url(#card)">
+    <rect class="acc" x="0" y="0" width="600" height="2" fill="url(#acl)"/>
+  </g>
+
+  <!-- content -->
+  <g class="in">
+    <!-- glyph tile + two swap arrows -->
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#ac)"/>
+    <g transform="translate(28 30)" fill="#ffffff">
+      <g class="top">
+        <rect x="9.7" y="14.7" width="17.6" height="3.5" rx="1.8"/>
+        <polygon points="24.6,9.7 35.2,16.5 24.6,23.3"/>
+      </g>
+      <g class="bot">
+        <rect x="16.7" y="25.7" width="17.6" height="3.5" rx="1.8"/>
+        <polygon points="19.4,20.7 8.8,27.5 19.4,34.3"/>
+      </g>
+    </g>
+
+    <!-- title + NEW pill + meta -->
+    <text class="title" x="88" y="52">CCSwitcherX</text>
+    <rect x="252" y="34" width="44" height="18" rx="9" fill="#34d399" fill-opacity="0.20" stroke="#34d399" stroke-width="1"/>
+    <text class="pill" x="274" y="47" text-anchor="middle">NEW</text>
+    <circle cx="93" cy="70" r="5" fill="#3572a5"/>
+    <text class="meta" x="104" y="74">Python · Claude Code account switcher</text>
+
+    <!-- description (2 lines) -->
+    <text class="desc" x="88" y="110">Switch Claude Code between your own accounts in one click:</text>
+    <text class="desc" x="88" y="132">Windows window, VS Code status bar, usage per account.</text>
+
+    <!-- topic chips -->
+    <rect x="88" y="164" width="82" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="129" y="179" text-anchor="middle">100% local</text>
+    <rect x="178" y="164" width="110" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="233" y="179" text-anchor="middle">encrypted logins</text>
+    <rect x="296" y="164" width="72" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="332" y="179" text-anchor="middle">live demo</text>
+
+    <!-- call to action -->
+    <text class="link" x="572" y="179" text-anchor="end">→ view repo</text>
+  </g>
+</svg>
