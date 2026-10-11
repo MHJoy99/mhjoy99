@@ -59,6 +59,22 @@ token, cache hit and API-equivalent dollar, read from Claude Code's own logs.<br
 </tr>
 </table>
 
+<div align="center">
+
+**Project websites:**
+[CCUsageX](https://mhjoy99.github.io/CCUsageX/) ·
+[JoyVoice](https://mhjoy99.github.io/joyvoice/) ·
+[ZipStream-Hub](https://mhjoy99.github.io/ZipStream-Hub/) ·
+[bdx-bench](https://mhjoy99.github.io/bdx-bench/) ·
+[CamScanner MCP](https://mhjoy99.github.io/camscanner-mcp-hd-scanner/) ·
+[Mirror-Leech FUSE](https://mhjoy99.github.io/mirror-leech-telegram-bot-fuse/) ·
+[Speedy Bonding](https://mhjoy99.github.io/speedy-bonding/) ·
+[Jellyfin Stack](https://mhjoy99.github.io/jellyfin-torbox-potplayer-stack/) ·
+[Codex VS Code Health](https://mhjoy99.github.io/codex-vscode-health/) ·
+[Rainmeter Todo](https://mhjoy99.github.io/Rainmeter-Todo-Skin/)
+
+</div>
+
 <img src="assets/sections/stack.svg" width="100%" alt="05 Tech stack">
 
 <img src="assets/stack.svg" width="100%" alt="Tech stack: Python, Go, Rust, TypeScript, C#, PHP, React, Next.js, Electron, PySide6, Docker, Linux, Cloudflare">
