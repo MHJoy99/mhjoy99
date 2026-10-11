@@ -29,7 +29,7 @@ tool that somebody can actually use.
 <div align="center">
 
 **[CCUsageX](https://github.com/MHJoy99/CCUsageX)** is a local, zero-dependency dashboard for Claude Code usage: every prompt,
-token, cache hit and API-equivalent dollar, read from Claude Code's own logs.<br>
+token, cache hit and API-equivalent dollar, read from Claude Code's own logs, plus your live 5-hour and weekly plan limits.<br>
 **[▶ Live demo](https://mhjoy99.github.io/CCUsageX/demo/)** · **[Website](https://mhjoy99.github.io/CCUsageX/)** · **[Repo](https://github.com/MHJoy99/CCUsageX)**
 
 </div>
