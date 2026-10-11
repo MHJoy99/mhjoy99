@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="rt-title rt-desc">
+  <title id="rt-title">Rainmeter-Todo-Skin</title>
+  <desc id="rt-desc">Rainmeter skin that turns your desktop into a Google Tasks widget. Click a todo to create a real Google Task via OAuth 2.0. Local-first. C# desktop widget.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="acl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#06b6d4"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 24px; font-weight: 800; fill: #e2e8f0; }
+    .meta  { font-size: 13px; fill: #94a3b8; }
+    .desc  { font-size: 15px; fill: #cbd5e1; }
+    .chip  { font-size: 12px; fill: #cbd5e1; }
+    .link  { font-size: 12px; fill: #38bdf8; }
+
+    .in    { animation: rise 0.6s ease-out both; }
+    .acc   { transform-box: fill-box; transform-origin: left center; animation: grow 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    .tick  { stroke-dasharray: 1; stroke-dashoffset: 0; animation: draw 4s ease-in-out infinite; }
+
+    @keyframes rise  { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes grow  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes sweep { 0% { transform: translateX(-220px); } 22% { transform: translateX(900px); } 100% { transform: translateX(900px); } }
+    @keyframes draw  {
+      0%   { stroke-dashoffset: 1; opacity: 1; }
+      35%  { stroke-dashoffset: 0; opacity: 1; }
+      80%  { stroke-dashoffset: 0; opacity: 1; }
+      92%, 100% { stroke-dashoffset: 0; opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .in, .acc, .tick { animation: none; }
+      .shimmer { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#bg)" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- shimmer sweep, clipped to the card -->
+  <g clip-path="url(#card)">
+    <g class="shimmer">
+      <rect x="-150" y="-80" width="150" height="380" fill="url(#sh)" transform="rotate(22 300 110)"/>
+    </g>
+  </g>
+
+  <!-- accent line along the top edge -->
+  <g clip-path="url(#card)">
+    <rect class="acc" x="0" y="0" width="600" height="2" fill="url(#acl)"/>
+  </g>
+
+  <!-- content -->
+  <g class="in">
+    <!-- glyph tile + checklist icon -->
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#ac)"/>
+    <g transform="translate(38 40)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="1" y="3" width="7" height="7" rx="1.5"/>
+      <path class="tick" pathLength="1" d="M2.4 6.6 L4.2 8.4 L7.2 4.6"/>
+      <path d="M13 6.5 H22"/>
+      <rect x="1" y="14" width="7" height="7" rx="1.5"/>
+      <path d="M13 17.5 H20"/>
+    </g>
+
+    <!-- title + meta -->
+    <text class="title" x="88" y="52">Rainmeter-Todo-Skin</text>
+    <circle cx="93" cy="70" r="5" fill="#178600"/>
+    <text class="meta" x="104" y="74">C# · desktop widget</text>
+
+    <!-- description (repo's own, shortened, 2 lines) -->
+    <text class="desc" x="88" y="110">Rainmeter skin that turns your desktop into a Google Tasks</text>
+    <text class="desc" x="88" y="132">widget. Click a todo to create a real Google Task via OAuth 2.0.</text>
+
+    <!-- topic chips -->
+    <rect x="88" y="164" width="92" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="134" y="179" text-anchor="middle">Google Tasks</text>
+    <rect x="188" y="164" width="76" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="226" y="179" text-anchor="middle">OAuth 2.0</text>
+    <rect x="272" y="164" width="84" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="314" y="179" text-anchor="middle">local-first</text>
+
+    <!-- call to action -->
+    <text class="link" x="572" y="179" text-anchor="end">→ view repo</text>
+  </g>
+</svg>

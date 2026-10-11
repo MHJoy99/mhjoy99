@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img" aria-labelledby="mlf-t mlf-d">
+  <title id="mlf-t">mirror-leech-telegram-bot-fuse: Telegram mirror and leech bot</title>
+  <desc id="mlf-d">Telegram mirror and leech bot with a Linux FUSE zero-double-storage engine, ZIP picker GUI, TDLib session pool and dual GDrive backup.</desc>
+  <defs>
+    <linearGradient id="mlf-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="mlf-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <clipPath id="mlf-card">
+      <rect x="0" y="0" width="600" height="220" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .accent { transform-box: fill-box; transform-origin: 0% 50%; animation: grow .9s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .content { animation: rise .6s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-300px); } 45%, 100% { transform: translateX(800px); } }
+    .plane { animation: float 3s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(1px, -1.5px); } }
+    .trail { stroke-dasharray: 2.5 3.5; animation: flow 1.2s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -6px; } }
+    .arrow { animation: bob 1.6s ease-in-out infinite; }
+    @keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+    .line { fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+    @media (prefers-reduced-motion: reduce) {
+      .accent, .content, .shimmer, .plane, .trail, .arrow { animation: none; }
+      .shimmer { display: none; }
+    }
+  </style>
+
+  <!-- card surface -->
+  <rect x="0.5" y="0.5" width="599" height="219" rx="17.5" fill="url(#mlf-bg)" stroke="#94a3b8" stroke-opacity=".18" stroke-width="1"/>
+
+  <!-- shimmer sweep, clipped to card -->
+  <g clip-path="url(#mlf-card)">
+    <g class="shimmer">
+      <rect x="-40" y="-60" width="110" height="340" fill="#ffffff" fill-opacity=".06" transform="rotate(22 15 110)"/>
+    </g>
+  </g>
+
+  <!-- top accent line, grows on load -->
+  <rect class="accent" x="0" y="0" width="600" height="2" fill="url(#mlf-accent)" clip-path="url(#mlf-card)"/>
+
+  <g class="content">
+    <!-- glyph tile: paper plane with dashed trail and download arrow -->
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#mlf-accent)"/>
+    <g transform="translate(28 30)">
+      <path class="trail" d="M3 33 Q 6 25 13 17" fill="none" stroke="#ffffff" stroke-opacity=".75" stroke-width="2" stroke-linecap="round"/>
+      <g class="plane">
+        <g transform="translate(22 15) scale(.62) translate(-21.5 -22)">
+          <path class="line" d="M36 8 L7 19 L18 23 Z M36 8 L24 36 L18 23 Z"/>
+        </g>
+      </g>
+      <g class="arrow">
+        <path class="line" d="M22 25 V35"/>
+        <path class="line" d="M17.5 30.5 L22 35 L26.5 30.5"/>
+      </g>
+    </g>
+
+    <!-- title block -->
+    <text class="font" x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">mirror-leech-telegram-bot-fuse</text>
+    <circle cx="93" cy="69.5" r="5" fill="#3572A5"/>
+    <text class="font" x="104" y="74" font-size="13" fill="#94a3b8">Python · Telegram bot</text>
+
+    <!-- description, two lines -->
+    <text class="font" font-size="15" fill="#cbd5e1">
+      <tspan x="88" y="110">Telegram mirror &amp; leech bot: Linux FUSE zero-double-storage</tspan>
+      <tspan x="88" y="132">engine, ZIP picker GUI, TDLib pool, dual GDrive backup.</tspan>
+    </text>
+
+    <!-- topic chips -->
+    <g class="font" font-size="12" fill="#cbd5e1" text-anchor="middle">
+      <rect x="28" y="164" width="120" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="88" y="179">FUSE zero-copy</text>
+      <rect x="156" y="164" width="94" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="203" y="179">TDLib pool</text>
+      <rect x="258" y="164" width="112" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="314" y="179">GDrive backup</text>
+    </g>
+
+    <!-- call to action -->
+    <text class="font" x="572" y="179" font-size="12" fill="#38bdf8" text-anchor="end">→ view repo</text>
+  </g>
+</svg>

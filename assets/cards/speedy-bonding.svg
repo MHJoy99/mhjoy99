@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img">
+  <title>speedy-bonding</title>
+  <desc>Windows multi-connection SOCKS5 load balancer for IDM with optional Steam-only routing. TypeScript. MH Joy GitHub profile project card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .content { animation: rise .6s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .accent { transform-box: fill-box; transform-origin: 0 50%; animation: grow .9s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-320px) skewX(-20deg); } 40%, 100% { transform: translateX(820px) skewX(-20deg); } }
+    .arrow { animation: nudge 1.8s ease-in-out infinite; }
+    @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(1.5px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .content, .accent, .shimmer, .arrow { animation: none !important; }
+      .shimmer { display: none; }
+      .packet { display: none; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="600" height="220" fill="url(#bg)"/>
+    <rect class="shimmer" x="-120" y="-40" width="120" height="300" fill="url(#sh)"/>
+    <rect class="accent" x="18" y="0" width="564" height="2" fill="url(#acc)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="none" stroke="#94a3b8" stroke-opacity=".18" stroke-width="1"/>
+
+  <g class="content">
+    <!-- glyph tile: three network lines merging into one arrow, with packets -->
+    <g transform="translate(28 30)">
+      <rect width="44" height="44" rx="12" fill="url(#acc)"/>
+      <g fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 13C15 13 16 22 23 22"/>
+        <path d="M8 22H23"/>
+        <path d="M8 31C15 31 16 22 23 22"/>
+      </g>
+      <g class="arrow">
+        <path d="M20 19.8H31V15.5L39.5 22L31 28.5V24.2H20Z" fill="#ffffff"/>
+      </g>
+      <g class="packet" fill="#ffffff">
+        <circle r="2" opacity="0">
+          <animateMotion dur="1.8s" begin="0s" repeatCount="indefinite" path="M8 13C15 13 16 22 23 22H38"/>
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="2" opacity="0">
+          <animateMotion dur="1.8s" begin="0.6s" repeatCount="indefinite" path="M8 22H38"/>
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="2" opacity="0">
+          <animateMotion dur="1.8s" begin="1.2s" repeatCount="indefinite" path="M8 31C15 31 16 22 23 22H38"/>
+          <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.8;1" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <text x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">speedy-bonding</text>
+    <circle cx="93" cy="70" r="5" fill="#3178c6"/>
+    <text x="104" y="74" font-size="13" fill="#94a3b8">TypeScript · network bonding</text>
+
+    <text x="28" y="110" font-size="15" fill="#cbd5e1">Windows multi-connection SOCKS5 load balancer for IDM</text>
+    <text x="28" y="132" font-size="15" fill="#cbd5e1">with optional Steam-only routing.</text>
+
+    <g font-size="12" text-anchor="middle" fill="#cbd5e1">
+      <rect x="28.5" y="164.5" width="63" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="60" y="179">SOCKS5</text>
+      <rect x="99.5" y="164.5" width="107" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="153" y="179">load balancer</text>
+      <rect x="214.5" y="164.5" width="75" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="252" y="179">Electron</text>
+    </g>
+    <text x="572" y="179" font-size="12" text-anchor="end" fill="#38bdf8">→ view repo</text>
+  </g>
+</svg>

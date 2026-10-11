@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="zs-t zs-d">
+  <title id="zs-t">ZipStream-Hub - 4K streaming from ZIP archives</title>
+  <desc id="zs-d">Stream 4K/1080p video instantly from remote ZIP/ZIP64 archives without downloading. HTTP 206 byte-range proxy, 0 ms seek, PotPlayer/VLC/MPV, in-browser HTML5 player and M3U8 playlist export.</desc>
+  <defs>
+    <linearGradient id="zs-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="zs-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="zs-rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="zs-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="zs-clip">
+      <rect x="0" y="0" width="600" height="220" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .rise { animation: zs-rise .6s cubic-bezier(.2,.7,.2,1) .15s both; }
+    @keyframes zs-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .rule { transform-box: fill-box; transform-origin: 0 50%; animation: zs-grow .9s cubic-bezier(.3,.7,.2,1) both; }
+    @keyframes zs-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .shine { animation: zs-sweep 7s ease-in-out 1.6s infinite both; }
+    @keyframes zs-sweep { 0% { transform: translateX(-80px); } 22% { transform: translateX(760px); } 100% { transform: translateX(760px); } }
+    .flow { animation: zs-flow 1.2s linear infinite; }
+    @keyframes zs-flow { to { stroke-dashoffset: -28; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .rule, .shine, .flow { animation: none !important; }
+      .rise { opacity: 1; transform: none; }
+      .rule { transform: none; }
+      .shine { display: none; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#zs-bg)" stroke="#94a3b8" stroke-opacity=".18"/>
+
+  <g clip-path="url(#zs-clip)">
+    <g transform="rotate(18 300 110)">
+      <rect class="shine" x="-120" y="-200" width="140" height="640" fill="url(#zs-shine)"/>
+    </g>
+    <rect class="rule" x="0" y="0" width="600" height="2" fill="url(#zs-rule)"/>
+  </g>
+
+  <g class="rise">
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#zs-tile)"/>
+    <g transform="translate(28 30)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="7" y="6" width="30" height="24" rx="5"/>
+      <path d="M18 6V3.5h8V6"/>
+      <path d="M18.5 13.5L26 18L18.5 22.5Z" fill="#ffffff"/>
+      <path d="M8 36h28" stroke-opacity=".3"/>
+      <path class="flow" d="M8 36h28" stroke-dasharray="7 21"/>
+    </g>
+
+    <text x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">ZipStream-Hub</text>
+    <circle cx="93" cy="69.5" r="5" fill="#3572A5"/>
+    <text x="104" y="74" font-size="13" fill="#94a3b8">Python &#183; 4K streaming</text>
+
+    <text x="28" y="110" font-size="15" fill="#cbd5e1">Stream 4K/1080p video instantly from remote ZIP/ZIP64 archives</text>
+    <text x="28" y="132" font-size="15" fill="#cbd5e1">without downloading: HTTP 206 range proxy, 0 ms seek, PotPlayer/VLC/MPV.</text>
+
+    <rect x="28" y="164" width="104" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="80" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">HTTP 206 range</text>
+    <rect x="140" y="164" width="76" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="178" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">ZIP64</text>
+    <rect x="224" y="164" width="106" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="277" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">M3U8 export</text>
+
+    <text x="572" y="179" font-size="12" fill="#38bdf8" text-anchor="end">&#8594; view repo</text>
+  </g>
+</svg>

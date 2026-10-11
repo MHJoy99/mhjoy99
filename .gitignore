@@ -1,0 +1,3 @@
+.team/
+node_modules/
+*.log

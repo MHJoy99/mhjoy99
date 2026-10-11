@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="jv-t jv-d">
+  <title id="jv-t">joyvoice - Windows voice typing app</title>
+  <desc id="jv-d">Fast Windows voice typing with Gemini native audio, Bangla translation, Google fallback, offline mode, and a floating PySide6 mic widget. Topics: speech-to-text, gemini-api, pyside6, bangla-asr.</desc>
+  <defs>
+    <linearGradient id="jv-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="jv-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="jv-rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="jv-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="jv-clip">
+      <rect x="0" y="0" width="600" height="220" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .rise { animation: jv-rise .6s cubic-bezier(.2,.7,.2,1) .15s both; }
+    @keyframes jv-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .rule { transform-box: fill-box; transform-origin: 0 50%; animation: jv-grow .9s cubic-bezier(.3,.7,.2,1) both; }
+    @keyframes jv-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .shine { animation: jv-sweep 7s ease-in-out 1.6s infinite both; }
+    @keyframes jv-sweep { 0% { transform: translateX(-80px); } 22% { transform: translateX(760px); } 100% { transform: translateX(760px); } }
+    .w { animation: jv-pulse 2.4s ease-in-out infinite; }
+    .w2 { animation-delay: .4s; }
+    @keyframes jv-pulse { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .rule, .shine, .w, .w2 { animation: none !important; }
+      .rise { opacity: 1; transform: none; }
+      .rule { transform: none; }
+      .shine { display: none; }
+    }
+  </style>
+
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#jv-bg)" stroke="#94a3b8" stroke-opacity=".18"/>
+
+  <g clip-path="url(#jv-clip)">
+    <g transform="rotate(18 300 110)">
+      <rect class="shine" x="-120" y="-200" width="140" height="640" fill="url(#jv-shine)"/>
+    </g>
+    <rect class="rule" x="0" y="0" width="600" height="2" fill="url(#jv-rule)"/>
+  </g>
+
+  <g class="rise">
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#jv-tile)"/>
+    <g transform="translate(28 30)" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="16.5" y="8" width="11" height="18" rx="5.5"/>
+      <path d="M12 21a10 10 0 0 0 20 0"/>
+      <path d="M22 31v5M16 36.5h12"/>
+      <path class="w" d="M8.5 15.5q-3 6.5 0 13"/>
+      <path class="w w2" d="M35.5 15.5q3 6.5 0 13"/>
+    </g>
+
+    <text x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">joyvoice</text>
+    <circle cx="93" cy="69.5" r="5" fill="#3572A5"/>
+    <text x="104" y="74" font-size="13" fill="#94a3b8">Python &#183; voice typing</text>
+
+    <text x="28" y="110" font-size="15" fill="#cbd5e1">Fast Windows voice typing with Gemini native audio, Bangla translation,</text>
+    <text x="28" y="132" font-size="15" fill="#cbd5e1">Google fallback, offline mode, and a floating PySide6 mic widget.</text>
+
+    <rect x="28" y="164" width="100" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="78" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">Gemini audio</text>
+    <rect x="136" y="164" width="140" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="206" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">Bangla translation</text>
+    <rect x="284" y="164" width="116" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+    <text x="342" y="179" font-size="12" fill="#cbd5e1" text-anchor="middle">PySide6 widget</text>
+
+    <text x="572" y="179" font-size="12" fill="#38bdf8" text-anchor="end">&#8594; view repo</text>
+  </g>
+</svg>

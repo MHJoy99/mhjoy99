@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 240" width="840" height="240" role="img" aria-labelledby="t d">
+<title id="t">GitHub overview for MHJoy99</title>
+<desc id="d">10 stars, 56 original public repositories, 10 followers, 367 contributions in 2026, 911 contributions all-time and 12 pull requests.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111c3a"/><stop offset=".55" stop-color="#0f172a"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+<linearGradient id="sig" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="gSky"><stop offset="0" stop-color="#38bdf8" stop-opacity=".22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<radialGradient id="gVio"><stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect x="6" y="6" width="828" height="228" rx="16"/></clipPath>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.2"/></filter>
+<filter id="soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="6"/></filter>
+<linearGradient id="tileTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2e8f0" stop-opacity=".06"/><stop offset="1" stop-color="#e2e8f0" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+text{font-family:'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:'Cascadia Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace}
+.ttl{font-size:17px;font-weight:800;fill:#e2e8f0;letter-spacing:.2px}
+.sub{font-size:12px;fill:#94a3b8}
+.mut{font-size:11px;fill:#64748b}
+.lbl{font-size:12px;fill:#94a3b8}
+.num{font-weight:800;fill:#e2e8f0;font-variant-numeric:tabular-nums}
+.live{animation:pulse 2.4s ease-in-out infinite}
+.aur1{animation:drift1 12s ease-in-out infinite alternate}
+.aur2{animation:drift2 10s ease-in-out infinite alternate}
+.shim{animation:shim 9s linear infinite}
+.rise{animation:rise .7s cubic-bezier(.2,.8,.2,1) backwards}
+.fr{opacity:0;animation-name:frs;animation-timing-function:linear;animation-fill-mode:none}
+.fr.last{opacity:1;animation-name:frl;animation-fill-mode:backwards}
+@keyframes frs{0%,100%{opacity:1}}
+@keyframes frl{from{opacity:0}to{opacity:1}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes drift1{from{transform:translate(0,0)}to{transform:translate(60px,16px)}}
+@keyframes drift2{from{transform:translate(0,0)}to{transform:translate(-50px,-12px)}}
+@keyframes shim{to{stroke-dashoffset:-1000}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}}
+@media (prefers-reduced-motion: reduce){
+*{animation:none!important}
+.fr{display:none}
+.shim,.scan{opacity:0}
+}.big{font-size:28px}</style>
+<rect x="6" y="6" width="828" height="228" rx="16" fill="#3b82f6" opacity=".10" filter="url(#soft)"/>
+<rect x="6" y="6" width="828" height="228" rx="16" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+<g class="aur1"><ellipse cx="151.2" cy="36" rx="260" ry="120" fill="url(#gSky)"/></g>
+<g class="aur2"><ellipse cx="722.4" cy="228" rx="280" ry="130" fill="url(#gVio)"/></g>
+</g>
+<rect x="6.5" y="6.5" width="827" height="227" rx="15.5" fill="none" stroke="rgba(148,163,184,.18)"/>
+<rect class="shim" x="6.5" y="6.5" width="827" height="227" rx="15.5" fill="none" stroke="url(#edge)" stroke-width="1.6" pathLength="1000" stroke-dasharray="130 870" stroke-linecap="round"/>
+<circle class="live" cx="35" cy="33" r="3.6" fill="#34d399"/>
+<circle class="live" cx="35" cy="33" r="7" fill="#34d399" opacity=".18"/>
+<text class="ttl" x="50" y="38.5">GitHub overview</text>
+<text class="sub" x="50" y="0" opacity="0"> </text>
+<text class="mut mono" x="810" y="38" text-anchor="end">@MHJoy99 · updated 2026-10-11</text><g class="rise" style="animation-delay:0.15s">
+<rect x="30" y="56" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="30.5" y="56.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="66" cy="93" r="20" fill="#fbbf24" opacity=".12"/>
+<circle cx="66" cy="93" r="20" fill="none" stroke="#fbbf24" stroke-opacity=".35"/>
+<g transform="translate(54 81) scale(1)" fill="none" stroke="#fbbf24" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.2l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.5l6-.8z" stroke-linejoin="round"/></g>
+<text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.35s">0</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.43s">1</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.52s">3</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.60s">4</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.68s">5</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.77s">6</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.17s;animation-delay:0.85s">7</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.17s;animation-delay:1.02s">8</text><text class="num big fr" x="98" y="96" text-anchor="start" style="animation-duration:0.58s;animation-delay:1.18s">9</text><text class="num big fr last" x="98" y="96" text-anchor="start" style="animation-duration:0.01s;animation-delay:1.77s">10</text>
+<text class="lbl" x="98" y="116">Stars earned</text>
+</g><g class="rise" style="animation-delay:0.25s">
+<rect x="294" y="56" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="294.5" y="56.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="330" cy="93" r="20" fill="#38bdf8" opacity=".12"/>
+<circle cx="330" cy="93" r="20" fill="none" stroke="#38bdf8" stroke-opacity=".35"/>
+<g transform="translate(318 81) scale(1)" fill="none" stroke="#38bdf8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3H19v14H7.5A1.5 1.5 0 0 0 6 18.5z"/><path d="M6 18.5A1.5 1.5 0 0 0 7.5 20H19v-3"/><path d="M10 7.5h5"/></g>
+<text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.45s">0</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.53s">9</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.62s">17</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.70s">24</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.78s">30</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.87s">36</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.95s">40</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.03s">44</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.12s">47</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.20s">50</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.28s">52</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.37s">53</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.45s">54</text><text class="num big fr" x="362" y="96" text-anchor="start" style="animation-duration:0.33s;animation-delay:1.53s">55</text><text class="num big fr last" x="362" y="96" text-anchor="start" style="animation-duration:0.01s;animation-delay:1.87s">56</text>
+<text class="lbl" x="362" y="116">Original repos</text>
+</g><g class="rise" style="animation-delay:0.35s">
+<rect x="558" y="56" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="558.5" y="56.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="594" cy="93" r="20" fill="#a78bfa" opacity=".12"/>
+<circle cx="594" cy="93" r="20" fill="none" stroke="#a78bfa" stroke-opacity=".35"/>
+<g transform="translate(582 81) scale(1)" fill="none" stroke="#a78bfa" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8.2" r="3.5"/><path d="M5 20c0-3.9 3.1-6 7-6s7 2.100 7 6"/></g>
+<text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.55s">0</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.63s">1</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.72s">3</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.80s">4</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.88s">5</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.97s">6</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.17s;animation-delay:1.05s">7</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.17s;animation-delay:1.22s">8</text><text class="num big fr" x="626" y="96" text-anchor="start" style="animation-duration:0.58s;animation-delay:1.38s">9</text><text class="num big fr last" x="626" y="96" text-anchor="start" style="animation-duration:0.01s;animation-delay:1.97s">10</text>
+<text class="lbl" x="626" y="116">Followers</text>
+</g><g class="rise" style="animation-delay:0.45s">
+<rect x="30" y="140" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="30.5" y="140.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="66" cy="177" r="20" fill="#34d399" opacity=".12"/>
+<circle cx="66" cy="177" r="20" fill="none" stroke="#34d399" stroke-opacity=".35"/>
+<g transform="translate(54 165) scale(1)" fill="none" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5.5" width="16" height="14.5" rx="2.500"/><path d="M4 10.500h16M8.500 3.500v4M15.500 3.500v4"/><path d="M8 14.500l2.500 2.200L16 12.500"/></g>
+<text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.65s">0</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.73s">61</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.82s">114</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.90s">162</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.98s">202</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.07s">237</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.15s">267</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.23s">292</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.32s">312</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.40s">328</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.48s">341</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.57s">350</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.65s">357</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.73s">362</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.82s">364</text><text class="num big fr" x="98" y="180" text-anchor="start" style="animation-duration:0.17s;animation-delay:1.90s">366</text><text class="num big fr last" x="98" y="180" text-anchor="start" style="animation-duration:0.01s;animation-delay:2.07s">367</text>
+<text class="lbl" x="98" y="200">Contributions in 2026</text>
+</g><g class="rise" style="animation-delay:0.55s">
+<rect x="294" y="140" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="294.5" y="140.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="330" cy="177" r="20" fill="#3b82f6" opacity=".12"/>
+<circle cx="330" cy="177" r="20" fill="none" stroke="#3b82f6" stroke-opacity=".35"/>
+<g transform="translate(318 165) scale(1)" fill="none" stroke="#3b82f6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12c-1.800-2.600-3.200-4-5.200-4a4 4 0 1 0 0 8c2 0 3.400-1.400 5.200-4s3.200-4 5.200-4a4 4 0 1 1 0 8c-2 0-3.400-1.400-5.200-4z" stroke-linejoin="round"/></g>
+<text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.75s">0</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.83s">151</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.92s">285</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.00s">402</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.08s">503</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.17s">590</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.25s">664</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.33s">725</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.42s">775</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.50s">816</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.58s">847</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.67s">870</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.75s">887</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.83s">899</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.92s">905</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:2.00s">909</text><text class="num big fr" x="362" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:2.08s">910</text><text class="num big fr last" x="362" y="180" text-anchor="start" style="animation-duration:0.01s;animation-delay:2.17s">911</text>
+<text class="lbl" x="362" y="200">All-time contributions</text>
+</g><g class="rise" style="animation-delay:0.65s">
+<rect x="558" y="140" width="252" height="74" rx="12" fill="rgba(15,23,42,.62)" stroke="rgba(148,163,184,.16)"/>
+<rect x="558.5" y="140.5" width="251" height="26" rx="11.5" fill="url(#tileTop)"/>
+<circle cx="594" cy="177" r="20" fill="#c4b5fd" opacity=".12"/>
+<circle cx="594" cy="177" r="20" fill="none" stroke="#c4b5fd" stroke-opacity=".35"/>
+<g transform="translate(582 165) scale(1)" fill="none" stroke="#c4b5fd" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="5.500" r="2.200"/><circle cx="6" cy="18.500" r="2.200"/><circle cx="18" cy="18.500" r="2.200"/><path d="M6 7.700v8.600M18 16.300V10a3 3 0 0 0-3-3h-3.500"/><path d="M13.800 4.800L11.500 7l2.300 2.200"/></g>
+<text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.85s">0</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:0.93s">1</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.02s">3</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.10s">5</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.18s">6</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.27s">7</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.35s">8</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.08s;animation-delay:1.43s">9</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.17s;animation-delay:1.52s">10</text><text class="num big fr" x="626" y="180" text-anchor="start" style="animation-duration:0.58s;animation-delay:1.68s">11</text><text class="num big fr last" x="626" y="180" text-anchor="start" style="animation-duration:0.01s;animation-delay:2.27s">12</text>
+<text class="lbl" x="626" y="200">Pull requests</text>
+</g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="t1 d1">
+  <title id="t1">jellyfin-torbox-potplayer-stack</title>
+  <desc id="d1">One-click Jellyfin + TorBox + PotPlayer auto-stack: direct-stream 4K proxy, resume sync, watch console, supervisor and Netflix-dark panel. PowerShell project by MH Joy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .accent { transform-box: fill-box; transform-origin: left center; animation: grow .9s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .content { animation: rise .6s ease-out .15s both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .sheen { animation: shimmer 7s ease-in-out infinite; }
+    @keyframes shimmer { 0% { transform: translateX(-420px); } 40%, 100% { transform: translateX(420px); } }
+    .play { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.14); } }
+    .flow { stroke-dasharray: 4 4; animation: flow 1s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 8; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .accent, .content, .play, .flow { animation: none; }
+      .accent { transform: none; }
+      .sheen { display: none; }
+    }
+  </style>
+
+  <!-- card background + shimmer, clipped to the rounded card -->
+  <g clip-path="url(#clip)">
+    <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#bg)"/>
+    <g transform="rotate(20 300 110)">
+      <rect class="sheen" x="230" y="-160" width="150" height="540" fill="url(#sheen)"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="none" stroke="#94a3b8" stroke-opacity=".18" stroke-width="1"/>
+
+  <!-- accent line on the top edge, grows on load -->
+  <rect class="accent" x="18" y="0" width="564" height="2" fill="url(#accent)"/>
+
+  <g class="content">
+    <!-- glyph tile + film frame / TV icon with play symbol and direct-stream arrow -->
+    <g transform="translate(28 30)">
+      <rect width="44" height="44" rx="12" fill="url(#accent)"/>
+      <g fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="8" y="8" width="28" height="19" rx="3"/>
+        <polygon class="play" points="19,13 19,22 27,17.5"/>
+        <path class="flow" d="M10 35.5 H30"/>
+        <path d="M26 33 L30 35.5 L26 38"/>
+      </g>
+    </g>
+
+    <text x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">jellyfin-torbox-potplayer-stack</text>
+    <circle cx="93" cy="70" r="5" fill="#5391FE"/>
+    <text x="104" y="74" font-size="13" fill="#94a3b8">PowerShell<tspan> &#183; </tspan>home theater</text>
+
+    <text x="88" y="110" font-size="15" fill="#cbd5e1">One-click Jellyfin + TorBox + PotPlayer auto-stack: direct-stream 4K</text>
+    <text x="88" y="132" font-size="15" fill="#cbd5e1">proxy, resume sync, watch console, supervisor, Netflix-dark panel.</text>
+
+    <g font-size="12" fill="#cbd5e1" text-anchor="middle">
+      <rect x="88" y="164" width="124" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="150" y="179">direct-stream 4K</text>
+      <rect x="222" y="164" width="86" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="265" y="179">resume sync</text>
+      <rect x="318" y="164" width="116" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="376" y="179">one-click setup</text>
+    </g>
+    <text x="572" y="180" font-size="12" fill="#38bdf8" text-anchor="end">&#8594; view repo</text>
+  </g>
+</svg>

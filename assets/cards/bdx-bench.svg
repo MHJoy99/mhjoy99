@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img" aria-labelledby="bdx-t bdx-d">
+  <title id="bdx-t">bdx-bench: LLM benchmark harness and leaderboard</title>
+  <desc id="bdx-d">Zero-dependency local benchmark harness with a leaderboard GUI: swe-mini, terminal-mini and a blind chat arena with Elo.</desc>
+  <defs>
+    <linearGradient id="bdx-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="bdx-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <clipPath id="bdx-card">
+      <rect x="0" y="0" width="600" height="220" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .font { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .accent { transform-box: fill-box; transform-origin: 0% 50%; animation: grow .9s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .content { animation: rise .6s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-300px); } 45%, 100% { transform: translateX(800px); } }
+    .bar { transform-box: fill-box; transform-origin: 50% 100%; }
+    .bA { transform: scaleY(.583); animation: rankA 6s cubic-bezier(.4,0,.2,1) infinite; }
+    .bB { transform: scaleY(1);    animation: rankB 6s cubic-bezier(.4,0,.2,1) infinite; }
+    .bC { transform: scaleY(.375); animation: rankC 6s cubic-bezier(.4,0,.2,1) infinite; }
+    @keyframes rankA { 0%{transform:scaleY(.583)} 25%{transform:scaleY(1)} 50%{transform:scaleY(.792)} 75%{transform:scaleY(.375)} 100%{transform:scaleY(.583)} }
+    @keyframes rankB { 0%{transform:scaleY(1)} 25%{transform:scaleY(.583)} 50%{transform:scaleY(.375)} 75%{transform:scaleY(.792)} 100%{transform:scaleY(1)} }
+    @keyframes rankC { 0%{transform:scaleY(.375)} 25%{transform:scaleY(.792)} 50%{transform:scaleY(1)} 75%{transform:scaleY(.583)} 100%{transform:scaleY(.375)} }
+    .glyph-bar { fill: #ffffff; fill-opacity: .2; stroke: #ffffff; stroke-width: 2.2; vector-effect: non-scaling-stroke; }
+    @media (prefers-reduced-motion: reduce) {
+      .accent, .content, .shimmer, .bA, .bB, .bC { animation: none; }
+      .shimmer { display: none; }
+    }
+  </style>
+
+  <!-- card surface -->
+  <rect x="0.5" y="0.5" width="599" height="219" rx="17.5" fill="url(#bdx-bg)" stroke="#94a3b8" stroke-opacity=".18" stroke-width="1"/>
+
+  <!-- shimmer sweep, clipped to card -->
+  <g clip-path="url(#bdx-card)">
+    <g class="shimmer">
+      <rect x="-40" y="-60" width="110" height="340" fill="#ffffff" fill-opacity=".06" transform="rotate(22 15 110)"/>
+    </g>
+  </g>
+
+  <!-- top accent line, grows on load -->
+  <rect class="accent" x="0" y="0" width="600" height="2" fill="url(#bdx-accent)" clip-path="url(#bdx-card)"/>
+
+  <g class="content">
+    <!-- glyph tile: podium bars re-ranking -->
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#bdx-accent)"/>
+    <g transform="translate(28 30)">
+      <path d="M5 37 H39" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <rect class="glyph-bar bar bA" x="8" y="11" width="7" height="24" rx="1.5"/>
+      <rect class="glyph-bar bar bB" x="18.5" y="11" width="7" height="24" rx="1.5"/>
+      <rect class="glyph-bar bar bC" x="29" y="11" width="7" height="24" rx="1.5"/>
+    </g>
+
+    <!-- title block -->
+    <text class="font" x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">bdx-bench</text>
+    <circle cx="93" cy="69.5" r="5" fill="#3178c6"/>
+    <text class="font" x="104" y="74" font-size="13" fill="#94a3b8">TypeScript · LLM benchmark</text>
+
+    <!-- description, two lines -->
+    <text class="font" font-size="15" fill="#cbd5e1">
+      <tspan x="88" y="110">Zero-dependency local benchmark harness + leaderboard GUI</tspan>
+      <tspan x="88" y="132">(swe-mini, terminal-mini, blind chat arena with Elo).</tspan>
+    </text>
+
+    <!-- topic chips -->
+    <g class="font" font-size="12" fill="#cbd5e1" text-anchor="middle">
+      <rect x="28" y="164" width="74" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="65" y="179">swe-mini</text>
+      <rect x="110" y="164" width="82" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="151" y="179">Elo arena</text>
+      <rect x="200" y="164" width="124" height="22" rx="10" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25" stroke-width="1"/>
+      <text x="262" y="179">zero-dependency</text>
+    </g>
+
+    <!-- call to action -->
+    <text class="font" x="572" y="179" font-size="12" fill="#38bdf8" text-anchor="end">→ view repo</text>
+  </g>
+</svg>

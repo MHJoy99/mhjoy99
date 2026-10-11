@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" role="img" aria-labelledby="t d">
+<title id="t">Let’s build something useful.</title>
+<desc id="d">Animated closing banner with a slow aurora and wave: "Let’s build something useful." and MHJoy99 · github.com/MHJoy99.</desc>
+<style>
+.disp{font-family:'Segoe UI',-apple-system,system-ui,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'Cascadia Code','JetBrains Mono','SFMono-Regular',Consolas,monospace}
+
+.p{animation:drift 12s ease-in-out infinite;opacity:0}
+@keyframes drift{0%{transform:translate(0,0);opacity:0}20%{opacity:.85}80%{opacity:.5}100%{transform:translate(var(--dx),-64px);opacity:0}}
+.b{transform-box:fill-box;transform-origin:center}
+.a1{animation:a1 13s ease-in-out infinite alternate}
+.a2{animation:a2 17s ease-in-out infinite alternate}
+.a3{animation:a3 11s ease-in-out infinite alternate}
+@keyframes a1{from{transform:translate(-70px,10px) scale(1)}to{transform:translate(110px,-26px) scale(1.25)}}
+@keyframes a2{from{transform:translate(60px,-12px) scale(1.15)}to{transform:translate(-120px,24px) scale(.9)}}
+@keyframes a3{from{transform:translate(-40px,0) scale(.9)}to{transform:translate(70px,-10px) scale(1.2)}}
+.grid{animation:grid 8s linear infinite}
+@keyframes grid{to{transform:translate(48px,48px)}}
+.w{animation:wv linear infinite}
+@keyframes wv{to{transform:translateX(var(--s))}}
+.tw{animation:tw 4s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+.blink{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{0%,55%{opacity:1}56%,100%{opacity:0}}
+.sweep{animation:sweep 10s ease-in-out infinite}
+@keyframes sweep{0%{transform:translateX(-360px)}45%,100%{transform:translateX(1500px)}}
+.edge{animation:edge 9s linear infinite}
+@keyframes edge{to{stroke-dashoffset:-1000}}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{transform:scale(.94);opacity:.7}50%{transform:scale(1.1);opacity:1}}
+.spin{animation:spin 40s linear infinite}
+.spinr{animation:spin 28s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sonar{animation:sonar 4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes sonar{0%{transform:scale(.8);opacity:0}15%{opacity:.55}100%{transform:scale(2.3);opacity:0}}
+.rm{display:none}
+@media (prefers-reduced-motion: reduce){
+  *{animation:none !important}
+  .p{opacity:.6}
+  .live{display:none}
+  .rm{display:inline}
+}
+.spin,.spinr{transform-origin:0 0}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111c3a"/><stop offset=".5" stop-color="#0f172a"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+<radialGradient id="ra"><stop offset="0" stop-color="#7c3aed" stop-opacity=".7"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="rb"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".75"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
+<radialGradient id="rc"><stop offset="0" stop-color="#38bdf8" stop-opacity=".45"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="ttl" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="900" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="#f0f9ff"/><stop offset=".5" stop-color="#7dd3fc"/><stop offset="1" stop-color="#c4b5fd"/><animate attributeName="x1" values="300;380;300" dur="10s" repeatCount="indefinite"/><animate attributeName="x2" values="900;980;900" dur="10s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="shine" gradientUnits="userSpaceOnUse" x1="-260" y1="30" x2="-120" y2="-30"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="0 0;1500 0;1500 0" keyTimes="0;.35;1" dur="9s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .2 1;0 0 1 1"/></linearGradient>
+<linearGradient id="wg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7c3aed"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+<linearGradient id="wfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".32"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+<linearGradient id="wmg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".2" stop-color="#fff"/><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient>
+<mask id="wm"><rect width="1200" height="140" fill="url(#wmg)"/></mask>
+<linearGradient id="rule" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".7"/></linearGradient>
+<linearGradient id="ruler" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity=".7"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<linearGradient id="edge" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="140"><stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#bae6fd" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="gp" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#94a3b8" stroke-opacity=".09" stroke-width="1"/></pattern>
+<radialGradient id="gm" cx=".5" cy=".5" r=".6"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="gridMask"><rect width="1200" height="140" fill="url(#gm)"/></mask>
+<clipPath id="card"><rect x="8" y="8" width="1184" height="124" rx="20"/></clipPath>
+<filter id="sh" x="-10%" y="-30%" width="120%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="gl" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect x="12" y="16" width="1176" height="118" rx="22" fill="#7c3aed" opacity=".34" filter="url(#sh)"/>
+<rect x="8" y="8" width="1184" height="124" rx="20" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+  <ellipse class="b a1" cx="300" cy="20" rx="440" ry="120" fill="url(#ra)"/>
+  <ellipse class="b a2" cx="950" cy="130" rx="440" ry="120" fill="url(#rb)"/>
+  <ellipse class="b a3" cx="620" cy="70" rx="320" ry="70" fill="url(#rc)" opacity=".5"/>
+  <g mask="url(#gridMask)"><g class="grid"><rect x="-48" y="-48" width="1296" height="236" fill="url(#gp)"/></g></g>
+  <circle class="p" cx="521.46" cy="74.7" r="1.28" fill="#7dd3fc" style="--dx:15.68px;animation-duration:11.44s;animation-delay:-5.45s"/><circle class="p" cx="1029.3" cy="64.58" r="1.55" fill="#a78bfa" style="--dx:-6.39px;animation-duration:14.99s;animation-delay:-2.83s"/><circle class="p" cx="731.37" cy="64.01" r="0.96" fill="#e2e8f0" style="--dx:2.17px;animation-duration:16.24s;animation-delay:-3.35s"/><circle class="p" cx="975.05" cy="35.15" r="1.63" fill="#60a5fa" style="--dx:-1.37px;animation-duration:10.08s;animation-delay:-5.54s"/><circle class="p" cx="133.48" cy="96.88" r="2.17" fill="#7dd3fc" style="--dx:3.56px;animation-duration:16.09s;animation-delay:-10.44s"/><circle class="p" cx="232.88" cy="63.26" r="1.45" fill="#a78bfa" style="--dx:-2.99px;animation-duration:10.8s;animation-delay:-6.87s"/><circle class="p" cx="470.81" cy="122.73" r="1.79" fill="#e2e8f0" style="--dx:14.59px;animation-duration:14.78s;animation-delay:-4.65s"/><circle class="p" cx="1088.89" cy="109.48" r="1.89" fill="#60a5fa" style="--dx:-17.61px;animation-duration:9.15s;animation-delay:-4.31s"/><circle class="p" cx="137.77" cy="102.42" r="1.47" fill="#7dd3fc" style="--dx:-11.42px;animation-duration:15.07s;animation-delay:-4.22s"/><circle class="p" cx="784.21" cy="114.19" r="0.86" fill="#a78bfa" style="--dx:-11.58px;animation-duration:8.22s;animation-delay:-1s"/><circle class="p" cx="718.3" cy="105.19" r="1.26" fill="#e2e8f0" style="--dx:16.05px;animation-duration:16.74s;animation-delay:-3.59s"/><circle class="p" cx="1146.47" cy="55.55" r="1.22" fill="#60a5fa" style="--dx:10.35px;animation-duration:8.09s;animation-delay:-0.7s"/><circle class="p" cx="972.79" cy="102.19" r="1.5" fill="#7dd3fc" style="--dx:-1.21px;animation-duration:10.85s;animation-delay:-2.43s"/><circle class="p" cx="932.05" cy="54.96" r="1.44" fill="#a78bfa" style="--dx:-4.14px;animation-duration:9.46s;animation-delay:-5.28s"/><circle class="p" cx="81.42" cy="85.7" r="2.35" fill="#e2e8f0" style="--dx:9.33px;animation-duration:11.24s;animation-delay:-4.67s"/><circle class="p" cx="410.28" cy="49.7" r="1.99" fill="#60a5fa" style="--dx:17.43px;animation-duration:15.52s;animation-delay:-8.96s"/><circle class="p" cx="555.54" cy="34.94" r="1.96" fill="#7dd3fc" style="--dx:-18.89px;animation-duration:8.03s;animation-delay:-5.46s"/><circle class="p" cx="840.07" cy="94.77" r="1.25" fill="#a78bfa" style="--dx:-11.01px;animation-duration:12.6s;animation-delay:-10.67s"/>
+  <g class="live" transform="skewX(-18)"><rect class="sweep" x="0" y="0" width="300" height="140" fill="url(#sw)"/></g>
+  <g mask="url(#wm)">
+    <g class="w" style="--s:-600px;animation-duration:16s"><path d="M0 112 Q75 100 150 112 T300 112 T450 112 T600 112 T750 112 T900 112 T1050 112 T1200 112 T1350 112 T1500 112 T1650 112 T1800 112" fill="none" stroke="#1d4ed8" stroke-width="2" opacity=".6"/></g>
+    <g class="w" style="--s:-420px;animation-duration:11s"><path d="M0 118 Q105 100 210 118 T420 118 T630 118 T840 118 T1050 118 T1260 118 T1470 118 T1680 118 T1890 118 L1890 140 L0 140 Z" fill="url(#wfill)" stroke="url(#wg)" stroke-width="2.4"/></g>
+    <g class="w" style="--s:-360px;animation-duration:8s"><path d="M0 124 Q60 116 120 124 T240 124 T360 124 T480 124 T600 124 T720 124 T840 124 T960 124 T1080 124 T1200 124 T1320 124 T1440 124 T1560 124 T1680 124 T1800 124" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity=".6"/></g>
+  </g>
+  <rect x="80" y="53.2" width="190" height="1.6" fill="url(#rule)"/>
+  <rect x="930" y="53.2" width="190" height="1.6" fill="url(#ruler)"/>
+  <g transform="translate(290 54)"><g class="spin"><polygon points="0,-11 9.53,-5.5 9.53,5.5 0,11 -9.53,5.5 -9.53,-5.5" fill="none" stroke="url(#ring)" stroke-width="1.8" stroke-linejoin="round"/></g><circle r="3" fill="#38bdf8" class="b pulse"/></g><g transform="translate(910 54)"><g class="spin"><polygon points="0,-11 9.53,-5.5 9.53,5.5 0,11 -9.53,5.5 -9.53,-5.5" fill="none" stroke="url(#ring)" stroke-width="1.8" stroke-linejoin="round"/></g><circle r="3" fill="#38bdf8" class="b pulse"/></g>
+  <text x="600" y="68" text-anchor="middle" class="disp" font-size="38" font-weight="800" fill="#3b82f6" opacity=".5" filter="url(#gl)">Let's build something useful.</text>
+  <text x="600" y="68" text-anchor="middle" class="disp" font-size="38" font-weight="800" fill="url(#ttl)">Let's build something useful.</text>
+  <text x="600" y="68" text-anchor="middle" class="disp live" font-size="38" font-weight="800" fill="url(#shine)">Let's build something useful.</text>
+  <text x="600" y="95" text-anchor="middle" class="mono" font-size="14" letter-spacing="1.5" fill="#94a3b8">MHJoy99 <tspan fill="#38bdf8">·</tspan> github.com/MHJoy99</text>
+</g>
+<rect x="8.5" y="8.5" width="1183" height="123" rx="19.5" fill="none" stroke="#94a3b8" stroke-opacity=".22"/>
+<rect x="8.5" y="8.5" width="1183" height="123" rx="19.5" fill="none" stroke="url(#edge)" stroke-width="2" stroke-linecap="round" pathLength="1000" stroke-dasharray="160 840" class="edge live"/>
+</svg>

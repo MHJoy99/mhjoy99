@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220" width="600" height="220" role="img">
+  <title>camscanner-mcp-hd-scanner</title>
+  <desc>CamScanner MCP integration and free local HD document scanner, no watermarks: camera shots become 300 DPI multi-page PDFs with shadow removal. Python. MH Joy GitHub profile project card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10b981"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .content { animation: rise .6s ease-out both; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .accent { transform-box: fill-box; transform-origin: 0 50%; animation: grow .9s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    @keyframes sweep { 0% { transform: translateX(-320px) skewX(-20deg); } 40%, 100% { transform: translateX(820px) skewX(-20deg); } }
+    .scan { animation: scan 2.4s ease-in-out infinite; }
+    @keyframes scan { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(20px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .content, .accent, .shimmer, .scan { animation: none !important; }
+      .shimmer { display: none; }
+      .scan { transform: translateY(10px); }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="600" height="220" fill="url(#bg)"/>
+    <rect class="shimmer" x="-120" y="-40" width="120" height="300" fill="url(#sh)"/>
+    <rect class="accent" x="18" y="0" width="564" height="2" fill="url(#acc)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="none" stroke="#94a3b8" stroke-opacity=".18" stroke-width="1"/>
+
+  <g class="content">
+    <!-- glyph tile: document page with a scanning line -->
+    <g transform="translate(28 30)">
+      <rect width="44" height="44" rx="12" fill="url(#acc)"/>
+      <g fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="12" y="9" width="20" height="26" rx="3"/>
+        <path d="M16 17h12M16 22h12M16 27h7" stroke-width="1.8"/>
+      </g>
+      <line class="scan" x1="10" y1="12" x2="34" y2="12" stroke="#ecfeff" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+
+    <text x="88" y="52" font-size="24" font-weight="800" fill="#e2e8f0">camscanner-mcp-hd-scanner</text>
+    <circle cx="93" cy="70" r="5" fill="#3572A5"/>
+    <text x="104" y="74" font-size="13" fill="#94a3b8">Python · MCP · document scan</text>
+
+    <text x="28" y="110" font-size="15" fill="#cbd5e1">CamScanner MCP integration &amp; free local HD document scanner</text>
+    <text x="28" y="132" font-size="15" fill="#cbd5e1">without watermarks: camera shots → 300 DPI multi-page PDF, shadow removal.</text>
+
+    <g font-size="12" text-anchor="middle" fill="#cbd5e1">
+      <rect x="28.5" y="164.5" width="87" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="72" y="179">MCP server</text>
+      <rect x="124.5" y="164.5" width="93" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="171" y="179">300 DPI PDF</text>
+      <rect x="226.5" y="164.5" width="113" height="21" rx="9.5" fill="#38bdf8" fill-opacity=".10" stroke="#38bdf8" stroke-opacity=".25"/>
+      <text x="283" y="179">shadow removal</text>
+    </g>
+    <text x="572" y="179" font-size="12" text-anchor="end" fill="#38bdf8">→ view repo</text>
+  </g>
+</svg>

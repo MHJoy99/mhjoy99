@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220" role="img" aria-labelledby="cc-title cc-desc">
+  <title id="cc-title">CCUsageX</title>
+  <desc id="cc-desc">Local, zero-dependency dashboard for Claude Code usage: every prompt, token, cache hit and API-equivalent dollar, from its logs. JavaScript, Claude Code analytics. New.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111c3a"/>
+    </linearGradient>
+    <linearGradient id="ac" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b3df5"/>
+      <stop offset="1" stop-color="#c13584"/>
+    </linearGradient>
+    <linearGradient id="acl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5b3df5"/>
+      <stop offset="1" stop-color="#c13584"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="599" height="219" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, system-ui, 'Helvetica Neue', Arial, sans-serif; }
+    .title { font-size: 24px; font-weight: 800; fill: #e2e8f0; }
+    .meta  { font-size: 13px; fill: #94a3b8; }
+    .desc  { font-size: 15px; fill: #cbd5e1; }
+    .chip  { font-size: 12px; fill: #cbd5e1; }
+    .link  { font-size: 12px; fill: #38bdf8; }
+    .pill  { font-size: 11px; font-weight: 700; fill: #34d399; }
+
+    .in    { animation: rise 0.6s ease-out both; }
+    .acc   { transform-box: fill-box; transform-origin: left center; animation: grow 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .shimmer { animation: sweep 7s ease-in-out infinite; }
+    .caret { animation: blink 2.4s ease-in-out infinite; }
+    .bar   { transform-box: fill-box; transform-origin: 50% 100%; animation: bar 2.8s ease-in-out infinite; }
+    .bar-2 { animation-delay: 0.3s; }
+    .bar-3 { animation-delay: 0.6s; }
+
+    @keyframes rise  { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @keyframes grow  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes sweep { 0% { transform: translateX(-220px); } 22% { transform: translateX(900px); } 100% { transform: translateX(900px); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+    @keyframes bar   { 0%, 100% { transform: scaleY(0.5); } 55%, 80% { transform: scaleY(1); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .in, .acc, .caret, .bar { animation: none; }
+      .shimmer { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="599" height="219" rx="18" fill="url(#bg)" stroke="#94a3b8" stroke-opacity="0.18" stroke-width="1"/>
+
+  <!-- shimmer sweep, clipped to the card -->
+  <g clip-path="url(#card)">
+    <g class="shimmer">
+      <rect x="-150" y="-80" width="150" height="380" fill="url(#sh)" transform="rotate(22 300 110)"/>
+    </g>
+  </g>
+
+  <!-- accent line along the top edge -->
+  <g clip-path="url(#card)">
+    <rect class="acc" x="0" y="0" width="600" height="2" fill="url(#acl)"/>
+  </g>
+
+  <!-- content -->
+  <g class="in">
+    <!-- glyph tile + bar chart icon with caret -->
+    <rect x="28" y="30" width="44" height="44" rx="12" fill="url(#ac)"/>
+    <g transform="translate(38 40)">
+      <path class="caret" d="M2.5 6 L7 11 L2.5 16" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect class="bar bar-1" x="11" y="14" width="3" height="8" rx="1" fill="#ffffff"/>
+      <rect class="bar bar-2" x="15.5" y="10" width="3" height="12" rx="1" fill="#ffffff"/>
+      <rect class="bar bar-3" x="20" y="5" width="3" height="17" rx="1" fill="#ffffff"/>
+    </g>
+
+    <!-- title + NEW pill + meta -->
+    <text class="title" x="88" y="52">CCUsageX</text>
+    <rect x="222" y="34" width="44" height="18" rx="9" fill="#34d399" fill-opacity="0.20" stroke="#34d399" stroke-width="1"/>
+    <text class="pill" x="244" y="47" text-anchor="middle">NEW</text>
+    <circle cx="93" cy="70" r="5" fill="#f1e05a"/>
+    <text class="meta" x="104" y="74">JavaScript · Claude Code analytics</text>
+
+    <!-- description (repo's own, shortened, 2 lines) -->
+    <text class="desc" x="88" y="110">Local, zero-dependency dashboard for Claude Code usage: every</text>
+    <text class="desc" x="88" y="132">prompt, token, cache hit and API-equivalent dollar, from its logs.</text>
+
+    <!-- topic chips -->
+    <rect x="88" y="164" width="82" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="129" y="179" text-anchor="middle">100% local</text>
+    <rect x="178" y="164" width="104" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="230" y="179" text-anchor="middle">zero-dependency</text>
+    <rect x="290" y="164" width="72" height="22" rx="10" fill="#38bdf8" fill-opacity="0.10" stroke="#38bdf8" stroke-opacity="0.25"/>
+    <text class="chip" x="326" y="179" text-anchor="middle">live demo</text>
+
+    <!-- call to action -->
+    <text class="link" x="572" y="179" text-anchor="end">→ view repo</text>
+  </g>
+</svg>
